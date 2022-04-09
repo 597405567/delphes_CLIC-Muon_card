@@ -23,6 +23,7 @@ and other cards use fastjetfinder to identify jets. </BR>
 When outputting jets recognized by fastjetfinderkt, these jets are generally named ktjets, and </BR>
 when outputting jets recognized by fastjetfinder, they are generally named Jet. </BR>
 This difference is what causes the error.</BR>
+</BR>
 Here we suggest changing the ktjets output by fastjetfinderkt to Jet.</BR>
 Below the root tree writer in correspnding CLIC_card or Muon_card there is a command like this:</BR>
 ```
