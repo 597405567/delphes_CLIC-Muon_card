@@ -1,3 +1,5 @@
+## 为什么会出现这个问题
+
 在使用ma5做重构事例水平分析的时候，程序一般会使用LHCO文件作为输入。
 
 要想得到LHCO文件，我们需要使用delphes自带的root2lhco，将delphes生成的root文件转为LHCO文件。
@@ -25,6 +27,8 @@ if(!fBranchEvent || !fBranchTrack || !fBranchTower || !fBranchPhoton || !fBranch
 在输出fastjetfinder识别的jet时，一般会将其命名为Jet。
 
 这一点不同就是导致报错的原因。
+
+## 如何解决这个问题
 
 在这里我么建议将fastjetfinderkt输出的ktjets修改为Jet。
 
