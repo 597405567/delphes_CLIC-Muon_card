@@ -36,3 +36,4 @@ add Branch FastJetFinderKt/KTjets Jet Jet</BR>
 After doing this, the root file can be successfully converted into an LHCO file.</BR>
 It is necessary to declare here: </BR>
 we only modified the variable name of the output, and did not modify the default jet recognition algorithm of CLIC.</BR>
+$\color{red}{红色字体}$
